@@ -35,4 +35,5 @@ def acceptuserinput():
     else:
         print('Please provide the first non zero argument for the program to function')
 
-acceptuserinput()
+if __name__ == '__main__':
+    acceptuserinput()

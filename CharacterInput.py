@@ -35,5 +35,5 @@ def userinput():
     v_years = userturnshundred(v_age)
     print(int(v_mesg) * (v_name+' ,You would be 100 years old in ' + str(v_years) + '\n'))
 
-
-userinput()
+if __name__ == '__main__':
+    userinput()
